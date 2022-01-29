@@ -1,0 +1,26 @@
+body{
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+div h1{
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #0099fe;
+
+}
+
+@media screen and(max-width: 600px){
+  body{
+    background: slateblue;
+  }
+
+  div h1{
+    color: #ff0;
+    background: #000;
+  }
+}
