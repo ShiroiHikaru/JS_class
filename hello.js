@@ -75,5 +75,40 @@ console.log('50' - 25);
 // 이 경우도 마찬가지지만 Number()가 아닌 parseInt()가 적용됨
 
 
+//  변수 선언하기
+
+let change = '바꿔라';
+change = '바꿨다';
+
+document.write(change);
+
+let letter = 'hello world! my name is heeyeon!';
+
+let letter2 = letter;
+
+console.log(letter2);
 
 
+let motherNum = 5;
+motherNum += 4;
+document.write(motherNum);
+
+
+let string01 = '엄청 기~~~~이~~다란 문자열 입니다.'
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+console.log(string01);
+
+const value = '나는 상수';
+
+value = '상수지롱~';
+
+console.log(value);
