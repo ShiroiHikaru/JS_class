@@ -109,6 +109,19 @@ console.log(string01);
 
 const value = '나는 상수';
 
-value = '상수지롱~';
+// value = '상수지롱~';
 
-console.log(value);
+// console.log(value);
+
+
+let a = 5;
+
+let b = 3;
+
+let c = a;
+
+a = b
+b = c
+
+document.write(a);
+document.write(b);
