@@ -179,3 +179,40 @@ switch(fruit){
     default://default 에서 마무리는 ;이 아닌 :로 마무리 case 사용할 필요 없음
         document.write('입력하신 과일은 우리 매장에서 취급하지 않습니다.');
 }
+
+
+let cond = true
+let blank = '';
+
+if(cond){
+    blank = '참';
+} else {
+    blank = '거짓';
+}
+
+switch(cond){
+    case true:
+    blank = '참';
+        break;
+    case false:
+    blank = '거짓';
+        break;
+}
+//let blank = cond ? '참' : '거짓';
+
+
+//while 문 공식
+
+let i = 0; //변수 선언
+while(i < 100){
+    console.log('문장반복 100번');
+    i++;
+}//숫자를 "1"부터가 아닌 "0"부터 세니까
+
+for(let p = 0; p < 100; p++){
+    console.log('1부터 100까지의 출력 vol.01');
+}
+
+for(let nN = 1; nN <= 100; nN++){
+    console.log('1부터 100까지의 출력 vol.02')
+}
