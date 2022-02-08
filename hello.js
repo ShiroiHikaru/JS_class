@@ -77,10 +77,10 @@ console.log('50' - 25);
 
 //  변수 선언하기
 
-// let change = '바꿔라';
-// change = '바꿨다';
+let change = '바꿔라';
+change = '바꿨다';
 
-document.write(change);
+//document.write(change);
 
 let letter = 'hello world! my name is heeyeon!';
 
@@ -91,7 +91,7 @@ console.log(letter2);
 
 let motherNum = 5;
 motherNum += 4;
-document.write(motherNum);
+// document.write(motherNum);
 
 
 let string01 = '엄청 기~~~~이~~다란 문자열 입니다.'
@@ -123,8 +123,8 @@ let c = a;
 a = b
 b = c
 
-document.write(a);
-document.write(b);
+//document.write(a);
+//document.write(b);
 
 
 if(true){
@@ -134,7 +134,7 @@ if(false){
     console.log('hello if!');
 }
 
-const score = prompt('당신의 점수는 몇점입니까?');
+/*const score = prompt('당신의 점수는 몇점입니까?');
 if(score >= 90){
     document.write('A+');
 } else if(score >= 80){
@@ -145,4 +145,37 @@ if(score >= 90){
     document.write('B');
 } else{
     document.write('F');
+}*/
+
+
+
+//과일이라는 이름의 변수 입력 창
+const fruit = prompt('찾으시는 과일은 무엇인가요?');
+
+//if 문으로 풀어볼 경우
+if(fruit === '바나나'){
+    document.write('바나나는 길어~');
+}else if(fruit === '사과'){
+    document.write('사과는 빨개~');
+}else if(fruit === '멜론'){
+    document.write('올 때 메로나~');
+} else {
+    document.write('우린 그런 작물은 안키워~');
+}
+
+
+//switch 문으로 풀어볼 경우
+switch(fruit){
+    //switch 조건값과 case의 값이 일치해야 실행됩니다.
+    case '바나나':
+    document.write('바나나는 1송이에 3,500원 입니다.');
+        break;//연속실행을 멈추는 구간
+    case '사과':
+    document.write('사과는 1kg에 5,500원 입니다.');
+        break;
+    case '멜론':
+    document.write('멜론은 1kg에 23,000원 입니다.');
+        break;
+    default://default 에서 마무리는 ;이 아닌 :로 마무리 case 사용할 필요 없음
+        document.write('입력하신 과일은 우리 매장에서 취급하지 않습니다.');
 }
