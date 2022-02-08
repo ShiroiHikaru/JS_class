@@ -77,8 +77,8 @@ console.log('50' - 25);
 
 //  변수 선언하기
 
-let change = '바꿔라';
-change = '바꿨다';
+// let change = '바꿔라';
+// change = '바꿨다';
 
 document.write(change);
 
@@ -125,3 +125,24 @@ b = c
 
 document.write(a);
 document.write(b);
+
+
+if(true){
+    console.log('hello, if!');
+}
+if(false){
+    console.log('hello if!');
+}
+
+const score = prompt('당신의 점수는 몇점입니까?');
+if(score >= 90){
+    document.write('A+');
+} else if(score >= 80){
+    document.write('A');
+} else if(score >= 70){
+    document.write('B+');
+} else if(score >= 60){
+    document.write('B');
+} else{
+    document.write('F');
+}
