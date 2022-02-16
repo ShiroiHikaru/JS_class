@@ -216,3 +216,43 @@ for(let p = 0; p < 100; p++){
 for(let nN = 1; nN <= 100; nN++){
     console.log('1부터 100까지의 출력 vol.02')
 }
+
+
+
+// 별찍기 숙제
+for(let h = 0; h < 5; h++){
+    console.log('*'.repeat(h + 1));
+}
+
+/* 내가 이해한 방식
+h가 0이고 5보다 작을 경우 1씩 증가
+i가 0일 경우 1증가
+i가 1일 경우 1+1 2증가
+i가 2일 경우 2+1 3증가
+i가 3일 경우 3+1 4증가
+i가 2일 경우 4+1 5증가
+*/
+
+// 역순 별찍기
+for(let g = 5; g >= 1; g--){
+    console.log('*'.repeat(g - 1));
+}
+
+
+for(let w = 0; w < 5; w++){
+    console.log('*'.repeat(w));
+}
+
+
+for(let w = 0; w < 5; w++){
+    console.log('*'.repeat(5 - w));
+}
+
+
+// 1,3,5,7,9 별찍기
+for(let q = 1; q < 10; q++){
+    if(q % 2 === 1){
+        console.log('*'.repeat(9 - q))
+    }
+}
+
